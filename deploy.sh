@@ -1,1 +1,1 @@
-oc get pods
+# Not used
