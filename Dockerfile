@@ -1,5 +1,5 @@
 FROM ibmcom/ace-server:latest
+ENV LICENSE accept
 COPY PingService.bar /home/aceuser/bars/
 RUN ace_compile_bars.sh
-ENV LICENSE accept
-RUN chmod 755 /home/aceuser/PingService
+RUN chmod 755 /home/aceuser/ace-server/run/PingService
