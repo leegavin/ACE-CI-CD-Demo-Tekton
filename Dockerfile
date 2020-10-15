@@ -1,4 +1,3 @@
-#demo
 FROM ibmcom/ace-server:latest
 ENV LICENSE accept
 COPY PingService /home/aceuser/PingService
